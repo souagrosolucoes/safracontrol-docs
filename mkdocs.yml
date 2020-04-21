@@ -1,0 +1,57 @@
+# Project information
+site_name: SafraControl
+site_url: https://safracontrol.com.br/
+site_author: SouAgro Soluções
+site_description: >-
+  SafraControl GraphQL API documentation
+# Repository
+repo_name: safracontrol-docs
+repo_url: https://github.com/souagrosolucoes/safracontrol-docs
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2018 - 2020 SouAgro Soluções
+
+theme:
+  name: material
+
+  language: pt
+  features:
+    - instant
+    - tabs
+  palette:
+    primary: teal
+    accent: teal
+  # font:
+  #   text: Roboto
+  #   code: Roboto Mono
+  icon:
+    logo: logo
+
+# Page tree
+nav:
+  - Home:
+      - Index: index.md
+      - About: about.md
+  - Getting started:
+      - Index: getting-started.md
+  # - Extensions:
+  #   - Admonition: extensions/admonition.md
+  #   - CodeHilite: extensions/codehilite.md
+  #   - Footnotes: extensions/footnotes.md
+  #   - Metadata: extensions/metadata.md
+  #   - Permalinks: extensions/permalinks.md
+  #   - PyMdown: extensions/pymdown.md
+  # - Plugins:
+  #   - Search: plugins/search.md
+  #   - Minification: plugins/minification.md
+  #   - Revision date: plugins/revision-date.md
+  #   - Awesome pages: plugins/awesome-pages.md
+  # - Releases:
+  #   - Upgrading to 5.x: releases/5.md
+  #   - Upgrading to 4.x: releases/4.md
+  #   - Changelog: releases/changelog.md
+  # - Customization: customization.md
+  # - Data privacy: data-privacy.md
+  # - Contributing: contributing.md
+  # - License: license.md
